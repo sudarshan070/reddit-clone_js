@@ -138,6 +138,10 @@ table {
   width: 95%;
   margin: 0 auto;
 }
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /* ==================header============= */
 .header {
@@ -151,4 +155,22 @@ table {
 }
 img {
   width: 100%;
+}
+.header_section {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 0.4rem 2rem;
+  font-size: 1.24rem;
+  width: 22rem;
+  color: #8a8888;
+  position: relative;
+}
+.fas {
+  position: absolute;
+  z-index: 999;
+  padding: 0.6rem 0.8rem;
+  padding-top: 0.8rem;
 }
